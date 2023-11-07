@@ -1,8 +1,8 @@
 function App() {
 	return (
 		<main className="flex items-center justify-center h-screen bg-neutral-paleBlue">
-			<article className="flex flex-col w-2/3 max-w-4xl bg-white md:flex-row">
-				<div className="rounded-b-[45px] bg-gradient-to-t  from-gradient-lightRoyalBlue to-gradient-lightSlateBlue">
+			<article className="flex flex-col w-2/3 max-w-4xl bg-white md:rounded-[45px] md:flex-row">
+				<div className="md:rounded-t-[45px] rounded-b-[45px] bg-gradient-to-t  from-gradient-lightRoyalBlue to-gradient-lightSlateBlue">
 					<p className="py-8 text-lg font-semibold text-center font-Hanken text-neutral-lightLavender">
 						Your Result
 					</p>
